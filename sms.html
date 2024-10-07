@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Artist Website</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+   <!-- Linking swiper css -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+   <!-- Header/Navbar -->
+   <header>
+      <nav class="navbar ">
+         <a href="#" class="nav-logo">
+            <h2 class="logo-text">👩‍🎨Sketchiest</h2>
+         </a>
+         <ul class="nav-menu">
+            <button id="menu-close-button" class="fas fa-times"></button>
+
+            <li class="nav-item">
+               <a href="home-section" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+               <a href="#about-section" class="nav-link">About</a>   
+            </li>
+            <li class="nav-item">
+               <a href="#gallery-section" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+               <a href="#testimonials-section" class="nav-link">Testimonials</a>
+            </li>
+            <li class="nav-item">
+               <a href="#contact-section" class="nav-link">Contact</a>
+            </li>
+            
+         </ul>
+         <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+   </header>
+
+
+<main>
+   <!-- Hero section -->
+   <section id="home-section" class="hero-section fade-in">
+   <div class="section-content">
+   <div class="hero-details">
+      <h2 class="title">Professional Artist</h2>
+      <h3 class="subtitle">Hey!! If you're seeking something truly special, I'd be delighted to collaborate with you on personalized artwork.</h3>
+         <p class="description">Welcome to my world of creativity—where every sketch tells a story.</p>
+            <div class="buttons fade-in">
+               <!-- <p id="learn-more-info" class="learn-more-info-hidden">
+                  Learn more about my portfolio where you can explore various custom artworks, and preview projects. Click below to navigate to the About Section for more details!
+               </p> -->
+               <a href="#about-section" class="learn-more-btn" id="learn-more"><p id="learn-more-info" class="learn-more-info-hidden">Learn more</p>
+
+               </p></a>
+               <a href="#contact-section" class="contact">Contact</a>
+            </div>
+            <!-- <p id="learn-more-info" class="learn-more-info-hidden">
+               Learn more about my portfolio where you can explore various custom artworks, and preview projects. Click below to navigate to the About Section for more details!
+            </p> -->
+            </div>
+           
+            <div class="hero-image-wrapper">
+               <img src="assets/profile.jpg" alt="" class="hero-image">
+            </div>
+   </div>
+   </section>
+
+   <!-- About Section -->
+    <section id="about-section" class="about-section fade-in">
+      <div class="section-content">
+      <div class="about-image-wrapper">
+         <img src="assets/about.jpg" alt="About" class="about-image">
+      </div>
+      <div class="about-details">
+         <h2 class="section-title">About Me</h2>
+         <p class="text">I'm a passionate sketch artist with a love for turning imagination into intricate lines and detailed forms. From realistic portraits to abstract concepts, I strive to capture emotion and depth in every piece I create, I offer a wide range of sketches and paintings, from simple pencil sketches to intricate, detailed works in various mediums. I offer a wide range of sketches and paintings, from simple pencil sketches to intricate, detailed works in various mediums. If you are looking for something special, feel free to ask? I’m happy to work with you on custom orders. Welcome to my portfolio—where creativity meets passion.</p>
+         <div class="social-link-list">
+            <a href="https://www.facebook.com/shraddha.merwade/" class="social-link" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/the_sketchiest_?igsh=MW5hdWllc2I0djdrcQ%3D%3D&utm_source=qr" class="social-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+         </div>
+         </div>
+      </div>
+    </section>
+
+    <!-- gallery Section -->
+     <section id="gallery-section" class="gallery-section fade-in">
+      <h2 class="section-title">Gallery</h2>
+      <!-- <div class="section-content">
+         <ul class="gallery-list">
+            <li class="gallery-item">
+               <img src="assets/colorgirl.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+               <img src="assets/shaddu.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+               <img src="assets/girl.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+               <img src="assets/lataji.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+               <img src="assets/Ganpati.jpeg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+               <img src="assets/com-2.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+               <img src="assets/sudha.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+               <img src="assets/jetha.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+               <img src="assets/shivparvati.jpg" alt="Gallery" class="gallery-image">
+            </li>
+         </ul>
+      </div> -->
+
+      <div class="slideshow-container">
+
+         <div class="mySlides fade">
+           <div class="numbertext">1 / 3</div>
+           <img src="assets/moongirl.jpg" style="width:100%">
+           <div class="text">Caption Text</div>
+         </div>
+         
+         <div class="mySlides fade">
+           <div class="numbertext">2 / 3</div>
+           <img src="assets/Ganpati.jpeg" style="width:100%">
+           <div class="text">Caption Two</div>
+         </div>
+         
+         <div class="mySlides fade">
+           <div class="numbertext">3 / 3</div>
+           <img src="assets/colorgirl.jpg" style="width:100%">
+           <div class="text">Caption Three</div>
+         </div>
+         <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="assets/colorgirl.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="assets/colorgirl.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="assets/colorgirl.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+         
+         <a class="prev" onclick="plusSlides(-1)">❮</a>
+         <a class="next" onclick="plusSlides(1)">❯</a>
+         
+         </div>
+         <br>
+         
+         <div style="text-align:center">
+           <span class="dot" onclick="currentSlide(1)"></span> 
+           <span class="dot" onclick="currentSlide(2)"></span> 
+           <span class="dot" onclick="currentSlide(3)"></span> 
+         </div>
+         
+     </section>
+
+     <!-- Testimonial section -->
+      <section id="testimonials-section" class="testimonials-section fade-in">
+         <h2 class="section-title">Testimonials</h2>
+         <div class="section-content">
+            <div class="slider-container swiper">
+               <div class="slider-wrapper">
+                  <ul class="testimonials-list swiper-wrapper">
+                     <li class="testimonial swiper-slide">
+                        <img src="assets/soumya.jpg" alt="User" class="user-image">
+                        <h3 class="name">Soumya Nandawadagi</h3>
+                        <i class="feedback">"I’m in awe of your talent! The artwork is everything I hoped for and more. 
+                           Such a great experience working with you!"</i>
+                     </li>
+                     <li class="testimonial swiper-slide">
+                        <img src="assets/mahi.jpg" alt="User" class="user-image">
+                        <h3 class="name">Mahesh Bangalkar</h3>
+                        <i class="feedback">"Amazing work! This artwork is truly one-of-a-kind and exceeded all my expectations."</i>
+                     </li>
+                     <li class="testimonial swiper-slide">
+                        <img src="assets/vidya.jpg" alt="User" class="user-image">
+                        <h3 class="name">Vidya Shidling</h3>
+                        <i class="feedback">"Absolutely stunning! Your attention to detail is incredible—thank you for bringing my vision to life!"</i>
+                     </li>
+                     <li class="testimonial swiper-slide">
+                        <img src="assets/suhas.jpg" alt="User" class="user-image">
+                        <h3 class="name">Suhas Hunashimarad</h3>
+                        <i class="feedback">"I couldn’t be happier with the piece! It’s even better than I imagined. You have such a unique talent!"</i>
+                     </li>
+                     <li class="testimonial swiper-slide">
+                        <img src="assets/rishi.jpg" alt="User" class="user-image">
+                        <h3 class="name">Rishikesh Merwade</h3>
+                        <i class="feedback">"Thank you so much! The artwork is perfect and captures exactly what I wanted. I’m in love with it!"</i>
+                     </li>
+                     <li class="testimonial swiper-slide">
+                        <img src="assets/kartik.jpg" alt="User" class="user-image">
+                        <h3 class="name">Karthik Merwade</h3>
+                        <i class="feedback">"Exceptional work! The detail and emotion you put into this are truly remarkable. I’ll treasure it forever."</i>
+                     </li>
+                     <li class="testimonial swiper-slide">
+                        <img src="assets/vijji.jpg" alt="User" class="user-image">
+                        <h3 class="name">Vijayalakshmi Kambali</h3>
+                        <i class="feedback">"This piece is beyond beautiful! You’ve captured the essence perfectly. Thank you for this masterpiece!"</i>
+                     </li>
+                  </ul>
+
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Contact section -->
+       <section id="contact-section" class="contact-section fade-in">
+         <h2 class="section-title">Contact Me</h2>
+         <div class="section-content">
+            <ul class="contact-info-list">
+               <li class="contact-info">
+                  <i class="fa-solid fa-location-crosshairs"></i>
+                  <p>123 Campsite Avenue, Wilderness, CA 986534</p>
+               </li>
+               <li class="contact-info">
+                  <i class="fa-regular fa-envelope"></i>
+                  <p>beinghappy1225@gmail.com</p>
+               </li>
+               <li class="contact-info">
+                  <i class="fa-solid fa-phone"></i>
+                  <p>(91) 733-8503162</p>
+               </li>
+               <li class="contact-info">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>Monday - Friday: 9:00 AM - 7:00 PM (IST)</p>
+               </li>
+               <li class="contact-info">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>Saturday: 10:00 AM - 3:00 PM (IST)</p>
+               </li>
+               <li class="contact-info">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>Sunday: Closed</p>
+               </li>
+               <li class="contact-info">
+                  <i class="fa-solid fa-globe"></i>
+                  <a href="https://www.instagram.com/the_sketchiest_?igsh=MW5hdWllc2I0djdrcQ%3D%3D&utm_source=qr" target="_blank">
+                  <p>www.instagram.com</p>
+                  </a>
+               </li>
+            </ul>
+
+         <form action="#" class="contact-form">
+            <input type="text"  placeholder="Your name" class="form-input" required>
+            <input type="email" placeholder="Your email" class="form-input" required>
+            <textarea placeholder="Your message" class="form-input" required></textarea>
+            <button class="submit-button">
+               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=beinghappy1225@gmail.com&su=Art%20Inquiry&body=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20artwork." target="_blank">Submit</a>
+            </button>
+         </form>
+       </section>
+
+       <!-- Footer section -->
+       <footer class="footer-section">
+         <div class="section-content">
+            <p class="copyright-text">@ 2024 Art Portfolio</p>
+
+            <div class="social-link-list">
+               <a href="https://www.facebook.com/shraddha.merwade/" class="social-link" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+               <a href="https://www.instagram.com/the_sketchiest_?igsh=MW5hdWllc2I0djdrcQ%3D%3D&utm_source=qr" class="social-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+               <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+            <p class="policy-text">
+               <a href="#" class="policy-link">Privacy Policy</a>
+               <span class="separator">.</span>
+               <a href="#" class="policy-link">Refund Policy</a>
+            </p>
+         </div>
+       </footer>
+</main>  
+
+<!-- Linking Swiper script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Linking custom script -->
+<script src="script.js"></script>
+</body>
+</html>
